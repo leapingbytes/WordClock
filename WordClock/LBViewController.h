@@ -10,4 +10,6 @@
 
 @interface LBViewController : UIViewController
 
+@property(nonatomic, retain) NSDictionary*  ticks;
+@property(nonatomic, retain) NSMutableArray*       currentTicks;
 @end

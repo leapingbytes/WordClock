@@ -23,13 +23,13 @@
 		507E3B2D14E628B90028327C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		507E3B2F14E628B90028327C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		507E3B3114E628B90028327C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		507E3B3514E628B90028327C /* WordClock-Info.plist */ = {isa = PBXFileReference; path = "WordClock-Info.plist"; sourceTree = "<group>"; };
+		507E3B3514E628B90028327C /* WordClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WordClock-Info.plist"; sourceTree = "<group>"; };
 		507E3B3714E628B90028327C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		507E3B3914E628B90028327C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		507E3B3B14E628B90028327C /* WordClock-Prefix.pch */ = {isa = PBXFileReference; path = "WordClock-Prefix.pch"; sourceTree = "<group>"; };
-		507E3B3C14E628B90028327C /* LBAppDelegate.h */ = {isa = PBXFileReference; path = LBAppDelegate.h; sourceTree = "<group>"; };
+		507E3B3B14E628B90028327C /* WordClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordClock-Prefix.pch"; sourceTree = "<group>"; };
+		507E3B3C14E628B90028327C /* LBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBAppDelegate.h; sourceTree = "<group>"; };
 		507E3B3D14E628B90028327C /* LBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAppDelegate.m; sourceTree = "<group>"; };
-		507E3B3F14E628B90028327C /* LBViewController.h */ = {isa = PBXFileReference; path = LBViewController.h; sourceTree = "<group>"; };
+		507E3B3F14E628B90028327C /* LBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBViewController.h; sourceTree = "<group>"; };
 		507E3B4014E628B90028327C /* LBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBViewController.m; sourceTree = "<group>"; };
 		507E3B4314E628B90028327C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LBViewController_iPhone.xib; sourceTree = "<group>"; };
 		507E3B4614E628B90028327C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LBViewController_iPad.xib; sourceTree = "<group>"; };
@@ -251,10 +251,12 @@
 		507E3B4B14E628B90028327C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WordClock/WordClock-Prefix.pch";
 				INFOPLIST_FILE = "WordClock/WordClock-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -262,10 +264,12 @@
 		507E3B4C14E628B90028327C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WordClock/WordClock-Prefix.pch";
 				INFOPLIST_FILE = "WordClock/WordClock-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
