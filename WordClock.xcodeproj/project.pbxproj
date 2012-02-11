@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		507E3B2E14E628B90028327C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507E3B2D14E628B90028327C /* UIKit.framework */; };
+		507E3B3014E628B90028327C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507E3B2F14E628B90028327C /* Foundation.framework */; };
+		507E3B3214E628B90028327C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507E3B3114E628B90028327C /* CoreGraphics.framework */; };
+		507E3B3814E628B90028327C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 507E3B3614E628B90028327C /* InfoPlist.strings */; };
+		507E3B3A14E628B90028327C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 507E3B3914E628B90028327C /* main.m */; };
+		507E3B3E14E628B90028327C /* LBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 507E3B3D14E628B90028327C /* LBAppDelegate.m */; };
+		507E3B4114E628B90028327C /* LBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507E3B4014E628B90028327C /* LBViewController.m */; };
+		507E3B4414E628B90028327C /* LBViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507E3B4214E628B90028327C /* LBViewController_iPhone.xib */; };
+		507E3B4714E628B90028327C /* LBViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507E3B4514E628B90028327C /* LBViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		507E3B2914E628B90028327C /* WordClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		507E3B2D14E628B90028327C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		507E3B2F14E628B90028327C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		507E3B3114E628B90028327C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		507E3B3514E628B90028327C /* WordClock-Info.plist */ = {isa = PBXFileReference; path = "WordClock-Info.plist"; sourceTree = "<group>"; };
+		507E3B3714E628B90028327C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		507E3B3914E628B90028327C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		507E3B3B14E628B90028327C /* WordClock-Prefix.pch */ = {isa = PBXFileReference; path = "WordClock-Prefix.pch"; sourceTree = "<group>"; };
+		507E3B3C14E628B90028327C /* LBAppDelegate.h */ = {isa = PBXFileReference; path = LBAppDelegate.h; sourceTree = "<group>"; };
+		507E3B3D14E628B90028327C /* LBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAppDelegate.m; sourceTree = "<group>"; };
+		507E3B3F14E628B90028327C /* LBViewController.h */ = {isa = PBXFileReference; path = LBViewController.h; sourceTree = "<group>"; };
+		507E3B4014E628B90028327C /* LBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBViewController.m; sourceTree = "<group>"; };
+		507E3B4314E628B90028327C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LBViewController_iPhone.xib; sourceTree = "<group>"; };
+		507E3B4614E628B90028327C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LBViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		507E3B2614E628B90028327C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507E3B2E14E628B90028327C /* UIKit.framework in Frameworks */,
+				507E3B3014E628B90028327C /* Foundation.framework in Frameworks */,
+				507E3B3214E628B90028327C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		507E3B1E14E628B80028327C = {
+			isa = PBXGroup;
+			children = (
+				507E3B3314E628B90028327C /* WordClock */,
+				507E3B2C14E628B90028327C /* Frameworks */,
+				507E3B2A14E628B90028327C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		507E3B2A14E628B90028327C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				507E3B2914E628B90028327C /* WordClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		507E3B2C14E628B90028327C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				507E3B2D14E628B90028327C /* UIKit.framework */,
+				507E3B2F14E628B90028327C /* Foundation.framework */,
+				507E3B3114E628B90028327C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		507E3B3314E628B90028327C /* WordClock */ = {
+			isa = PBXGroup;
+			children = (
+				507E3B3C14E628B90028327C /* LBAppDelegate.h */,
+				507E3B3D14E628B90028327C /* LBAppDelegate.m */,
+				507E3B3F14E628B90028327C /* LBViewController.h */,
+				507E3B4014E628B90028327C /* LBViewController.m */,
+				507E3B4214E628B90028327C /* LBViewController_iPhone.xib */,
+				507E3B4514E628B90028327C /* LBViewController_iPad.xib */,
+				507E3B3414E628B90028327C /* Supporting Files */,
+			);
+			path = WordClock;
+			sourceTree = "<group>";
+		};
+		507E3B3414E628B90028327C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				507E3B3514E628B90028327C /* WordClock-Info.plist */,
+				507E3B3614E628B90028327C /* InfoPlist.strings */,
+				507E3B3914E628B90028327C /* main.m */,
+				507E3B3B14E628B90028327C /* WordClock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		507E3B2814E628B90028327C /* WordClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 507E3B4A14E628B90028327C /* Build configuration list for PBXNativeTarget "WordClock" */;
+			buildPhases = (
+				507E3B2514E628B90028327C /* Sources */,
+				507E3B2614E628B90028327C /* Frameworks */,
+				507E3B2714E628B90028327C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordClock;
+			productName = WordClock;
+			productReference = 507E3B2914E628B90028327C /* WordClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		507E3B2014E628B80028327C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Leaping Bytes, LLC";
+			};
+			buildConfigurationList = 507E3B2314E628B80028327C /* Build configuration list for PBXProject "WordClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 507E3B1E14E628B80028327C;
+			productRefGroup = 507E3B2A14E628B90028327C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				507E3B2814E628B90028327C /* WordClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		507E3B2714E628B90028327C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507E3B3814E628B90028327C /* InfoPlist.strings in Resources */,
+				507E3B4414E628B90028327C /* LBViewController_iPhone.xib in Resources */,
+				507E3B4714E628B90028327C /* LBViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		507E3B2514E628B90028327C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507E3B3A14E628B90028327C /* main.m in Sources */,
+				507E3B3E14E628B90028327C /* LBAppDelegate.m in Sources */,
+				507E3B4114E628B90028327C /* LBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		507E3B3614E628B90028327C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				507E3B3714E628B90028327C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		507E3B4214E628B90028327C /* LBViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				507E3B4314E628B90028327C /* en */,
+			);
+			name = LBViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		507E3B4514E628B90028327C /* LBViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				507E3B4614E628B90028327C /* en */,
+			);
+			name = LBViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		507E3B4814E628B90028327C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		507E3B4914E628B90028327C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		507E3B4B14E628B90028327C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordClock/WordClock-Prefix.pch";
+				INFOPLIST_FILE = "WordClock/WordClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		507E3B4C14E628B90028327C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordClock/WordClock-Prefix.pch";
+				INFOPLIST_FILE = "WordClock/WordClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		507E3B2314E628B80028327C /* Build configuration list for PBXProject "WordClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				507E3B4814E628B90028327C /* Debug */,
+				507E3B4914E628B90028327C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		507E3B4A14E628B90028327C /* Build configuration list for PBXNativeTarget "WordClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				507E3B4B14E628B90028327C /* Debug */,
+				507E3B4C14E628B90028327C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 507E3B2014E628B80028327C /* Project object */;
+}
